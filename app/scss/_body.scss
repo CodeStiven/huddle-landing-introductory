@@ -1,0 +1,96 @@
+body {
+  background-image: url(/images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // overflow: hidden;
+  background-color: hsl(257, 40%, 49%);
+  background-position: center;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.mockup {
+  display: block;
+  margin-left: 200px;
+}
+
+.content {
+  display: block;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
+.build__title {
+  color: #fff;
+  font-family: $font-family;
+  font-weight: 600;
+  line-height: 50px;
+  font-size: 40px;
+}
+
+.build__paragraph {
+  color: #fff;
+  font-family: $font-family2;
+  line-height: 25px;
+  font-size: 19px;
+}
+
+.logo {
+  display: block;
+  margin: 40px 0;
+  margin-left: 50px;
+}
+
+.btn__register {
+  width: 200px;
+  border: none;
+  border-radius: 70px;
+  padding: 15px;
+  font-family: $font-family2;
+  font-size: 17px;
+  color: $violet;
+  box-shadow: 1px 2px 6px 4px rgba(0, 0, 0, 0.2);
+  &:hover {
+    color: #fff;
+    background-color: $soft-magenta;
+    cursor: pointer;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  font-weight: lighter;
+  padding: 0;
+  margin-right: 100px;
+  margin-top: 130px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.facebook,
+.twitter,
+.instagram {
+  display: inline-flex;
+  justify-self: center;
+  align-self: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  padding: 9px 10px;
+  margin: 0 0.5%;
+  &:hover {
+    color: $soft-magenta;
+    cursor: pointer;
+    border-color: $soft-magenta;
+  }
+}
+
+.facebook{
+  padding: 9px 12px;
+}
